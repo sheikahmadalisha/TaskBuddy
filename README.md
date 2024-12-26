@@ -1,44 +1,41 @@
-# TaskBuddy Project 📝
 
-## Requirements for TaskBuddy Project
 
-**Name:** TaskBuddy  
-**Type:** Task Management Application  
+<img width="1440" alt="Screenshot 2024-12-26 at 3 49 32 PM" src="https://github.com/user-attachments/assets/ffa014e0-41e5-477b-84ce-eaef58d5be3d" />
 
----
 
-### Core Features
+TaskBuddy is a task management app built with React. It allows users to add, update, delete, and track their tasks with ease. The app also includes a progress tracker and the ability to clear all tasks at once.
 
-#### Task Input Form
-- Add tasks with an input field and a submit button.
-- Ensure the input is validated to prevent empty or duplicate tasks.
+## Features
 
-#### Task List
-- Display tasks dynamically, showing task names and their completion status.
-- Allow users to mark tasks as complete or delete them.
+- **Add Tasks**: Users can add new tasks to the list.
+- **Update Tasks**: Users can edit the details of existing tasks.
+- **Delete Tasks**: Users can remove tasks from the list.
+- **Clear All Tasks**: Users can clear all tasks with a single click.
+- **Progress Tracker**: Visual representation of the task completion status.
 
-#### Persistent Data
-- Use `localStorage` to save tasks so they persist even after refreshing the page.
+## Installation
 
-#### Progress Tracker
-- Implement a visual progress tracker that shows the percentage of tasks completed.
-- Update the progress dynamically as tasks are marked as complete or pending.
+Follow these steps to get your development environment set up:
 
-#### Task History
-- Allow users to view a history of completed tasks.
-- Provide an option to restore or delete tasks from the history, giving users control over their task management.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/TaskBuddy.git
 
----
 
-### Technical Requirements
-- **Frontend Framework:** React.js
-- **Data Storage:** localStorage
-- **Version Control:** Git and GitHub for version tracking
-- **Deployment:** Deploy on GitHub Pages or Netlify
+Usage
+Adding Tasks: Enter task details and click "Add Task" to add a new task.
+Updating Tasks: Click on a task to edit its details.
+Deleting Tasks: Click the trash icon next to a task to delete it.
+Clearing All Tasks: Click the "Clear All Tasks" button to remove all tasks.
+Progress Tracker: View the progress of your tasks in the progress tracker.
+Technologies Used
+React
+CSS
+Local Storage (for saving tasks)
 
----
-
-### Required Tools
-- **Code Editor:** Visual Studio Code (or your preferred editor)
-- **Browser:** Google Chrome (or any modern browser)
-- **Node.js & npm:** To manage dependencies and run the React application
+Contributing
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-name).
+Create a new Pull Request.
